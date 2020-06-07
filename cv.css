@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(114, 89, 165);
+    margin: 0;
+    font-family: Source Sans Pro;
+    color: white;
+    
+}
+#wrap{
+    width: 80%;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+
+}
+#nav.alt {
+    position: fixed;
+    top: 0;
+    padding: 0.5em 1em;
+    background-color: rgba(247, 247, 247, 0.95);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    z-index: 10000;
+}
+.alt{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 0.55cm;
+}
+#nav {
+    transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    color:#636363;
+    position: center;
+    padding: 1em;
+    background-color:#f7f7f7;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    cursor: default;
+    text-align: center;
+    box-sizing: inherit;
+}
+
+#nav ul li{
+    transition: margin 0.2s ease;
+    display: inline-block;
+    margin: 0 0.35em;
+    padding: 0;
+    vertical-align: middle;
+}
+#main {
+    background-color: #ffffff;
+    color:#636363;
+    border-radius: 0.25em;
+}
+#main > .main {
+    padding: 5em 5em 3em 5em;
+    border-top: solid 1px #dddddd;
+}
+.spolight{
+    display: flex;
+    align-items: center;
+    margin: 0 0 2em 0;
+}
+.spotlight .image img {
+    width: 14em;
+    float: right;
+    display: block;
+}
+.spotlight2 .image img {
+    width: 7em;
+    float: right;
+    display: block;
+}
